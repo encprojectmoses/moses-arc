@@ -22,5 +22,11 @@
     "public": true,
     "$promise": {},
     "$resolved": true
+  },
+  "quarterly": {
+    "dataSource": "mosesDS",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
   }
 }

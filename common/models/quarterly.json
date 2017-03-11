@@ -1,0 +1,46 @@
+{
+  "name": "quarterly",
+  "plural": "quarterlyReports",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "number_of_lgl": {
+      "type": "number",
+      "required": true,
+      "default": 0
+    },
+    "number_of_vgl": {
+      "type": "number",
+      "required": true,
+      "default": 0
+    },
+    "number_of_vgm": {
+      "type": "number",
+      "required": true,
+      "default": 0
+    },
+    "created_by": {
+      "type": "number",
+      "required": true
+    },
+    "created_date": {
+      "type": "date",
+      "required": true
+    },
+    "last_mod_date": {
+      "type": "date",
+      "required": true
+    },
+    "quarter_report": {
+      "type": "date",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
