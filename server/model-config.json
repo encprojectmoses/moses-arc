@@ -16,5 +16,11 @@
   "sampleUser": {
     "dataSource": "mosesDS",
     "public": true
+  },
+  "monthly": {
+    "dataSource": "mosesDS",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
   }
 }

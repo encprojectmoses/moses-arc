@@ -1,0 +1,57 @@
+{
+  "name": "monthly",
+  "plural": "monthlyReports",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "youth_service_attendance": {
+      "type": "number",
+      "required": true,
+      "default": 0
+    },
+    "tno_envelope": {
+      "type": "number",
+      "required": true,
+      "default": 0
+    },
+    "salvation_story": {
+      "type": "string",
+       "length": 1024
+    },
+    "evangelism_story": {
+      "type": "string",
+       "length": 1024
+    },
+    "new_victory_weekend_story": {
+      "type": "string",
+       "length": 1024
+    },
+    "created_by": {
+      "type": "number",
+      "required": true
+    },
+    "created_date": {
+      "type": "date",
+      "required": true
+    },
+    "last_mod_date": {
+      "type": "date",
+      "required": true
+    },
+    "month_report": {
+      "type": "date",
+      "required": true
+    },
+    "new_vgl_story": {
+      "type": "string",
+       "length": 1024
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
